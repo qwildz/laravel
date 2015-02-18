@@ -6,10 +6,6 @@
 	"type": "project",
 	"repositories": [
         {
-            "url": "https://github.com/qwildz/slug-routes.git",
-            "type": "git"
-        },
-		{
             "type": "vcs",
             "url": "https://github.com/BootstrapCMS/asset"
         },
@@ -34,7 +30,6 @@
 		"graham-campbell/logviewer": "0.3.*",
 		"graham-campbell/throttle": "~3.0",
 		
-		"felixkiss/slug-routes": "dev-master",
 		"mccool/laravel-auto-presenter": "~3.0",
 		"cviebrock/eloquent-sluggable": "dev-master",
 		
