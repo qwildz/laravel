@@ -39,6 +39,8 @@ class RouteServiceProvider extends ServiceProvider {
 		{
 			require app_path('Http/routes.php');
 		});
+		
+		$router->get('logs', 'Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 	}
 
 }
