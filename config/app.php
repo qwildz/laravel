@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Asia/Jakarta',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'id',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -144,6 +144,26 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+		
+		
+		'Illuminate\Html\HtmlServiceProvider',
+		'Jenssegers\Date\DateServiceProvider',
+		'GrahamCampbell\Security\SecurityServiceProvider',
+		'GrahamCampbell\Binput\BinputServiceProvider',
+		'GrahamCampbell\Core\CoreServiceProvider',
+		'GrahamCampbell\Throttle\ThrottleServiceProvider',
+		'GrahamCampbell\Credentials\CredentialsServiceProvider',
+		'GrahamCampbell\Exceptions\ExceptionsServiceProvider',
+		'GrahamCampbell\LogViewer\LogViewerServiceProvider',
+		'McCool\LaravelAutoPresenter\LaravelAutoPresenterServiceProvider',
+		'Cartalyst\Sentry\SentryServiceProvider',
+		'Lightgear\Asset\AssetServiceProvider',
+		'Cviebrock\EloquentSluggable\SluggableServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider',
+		'Former\FormerServiceProvider',
+		'DaveJamesMiller\Breadcrumbs\ServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
+		'Chumper\Zipper\ZipperServiceProvider'
 
 	],
 
@@ -192,7 +212,19 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-
+		
+		'Asset'     => 'Lightgear\Asset\Facades\Asset',
+		'Form'      => 'Illuminate\Html\FormFacade',
+		'HTML'      => 'Illuminate\Html\HtmlFacade',
+		'Date'      => 'Jenssegers\Date\Date',
+		'Binput'    => 'GrahamCampbell\Binput\Facades\Binput',		
+		'UserProvider' => 'GrahamCampbell\Credentials\Facades\UserProvider',
+		'GroupProvider' => 'GrahamCampbell\Credentials\Facades\GroupProvider',
+		'Credentials' => 'GrahamCampbell\Credentials\Facades\Credentials',
+		'Former' => 'Former\Facades\Former',
+		'Breadcrumbs' => 'DaveJamesMiller\Breadcrumbs\Facade',
+		'Image' => 'Intervention\Image\Facades\Image',
+		'Zipper' => 'Chumper\Zipper\Zipper'
 	],
 
 ];
