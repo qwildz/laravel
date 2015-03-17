@@ -161,8 +161,9 @@ return [
 		'Former\FormerServiceProvider',
 		'DaveJamesMiller\Breadcrumbs\ServiceProvider',
 		'Intervention\Image\ImageServiceProvider',
-		'Chumper\Zipper\ZipperServiceProvider'
-
+		'Chumper\Zipper\ZipperServiceProvider',
+		'Gwnobots\LaravelHead\LaravelHeadServiceProvider',
+		'Laracasts\Flash\FlashServiceProvider'
 	],
 
 	/*
@@ -222,7 +223,8 @@ return [
 		'Former' => 'Former\Facades\Former',
 		'Breadcrumbs' => 'DaveJamesMiller\Breadcrumbs\Facade',
 		'Image' => 'Intervention\Image\Facades\Image',
-		'Zipper' => 'Chumper\Zipper\Zipper'
+		'Zipper' => 'Chumper\Zipper\Zipper',
+		'Flash' => 'Laracasts\Flash\Flash'
 	],
 
 ];
